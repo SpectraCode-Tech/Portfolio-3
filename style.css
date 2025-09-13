@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 22, 25); /*background-color: rgb(#474747)*/    
+    color: white;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+header h1{
+color: white;
+}
+nav li{
+    display: flex;
+    flex-direction: row;
+
+}
+nav ul{
+    font-size: 1.5em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav li ul a{
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#socials img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    font-size: 1em;
+
+}
+#socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+#socials img{
+    width: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+#socials img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#socials img:active{
+    transform: scale(0.95);
+    transition: transform 0.1s ease-in-out;
+}
+#hero_section{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#hero_image{
+    border-radius: 50%;
+    border:  solid 1px;
+    overflow: hidden;
+    background-color: rgb(22, 22, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 50px;
+    box-shadow: 0 0 20px rgba(36, 88, 59, 0.5), 0 0 30px rgba(47, 99, 68, 0.5), 0 0 40px rgba(9, 141, 62, 0.5);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+#hero_image:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+#hero_image img{
+    align-self: center;
+    width: 400px;  
+}
+#hero_text{
+    line-height: 1;
+    padding: 50px;
+}
+#hero_text h1{
+    line-height: 1;
+    font-size: 3.5rem;
+}
+#hero_btns{
+    display: flex;
+    flex-direction: row;
+}
+.main_btn{
+    background-color: transparent;
+    border: solid 2px rgb(73, 156, 109);
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.support_btn{
+    background-color: rgb(30, 45, 31);
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.support_btn img{
+    width: 30px;
+}
+.support_btn:hover, .main_btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.support_btn:active, .main_btn:active{
+  transform: scale(0.95);
+  transition: transform 0.1s ease-in-out;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+  background-color: rgb(22, 22, 20);
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+footer input, button{
+    background-color: rgb(19, 18, 18);
+    color: rgb(175, 175, 175);
+    padding: 10px 30px;
+    border: solid 0.5px rgb(87, 87, 87);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(49, 116, 78);
+    box-shadow: 1px 1 1 1px black;
+    cursor: pointer;
+
+}
+button:hover{
+    color: rgb(48, 48, 48);
+ box-shadow: 0 0 5px rgba(36, 88, 59, 0.5), 0 0 5px rgba(47, 99, 68, 0.5), 0 0 5px rgba(9, 141, 62, 0.5);
+    transition: 0.2s ease-in-out;
+}
+
+#Message{
+    padding: 35px;
+}
